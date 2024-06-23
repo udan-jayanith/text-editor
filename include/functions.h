@@ -2,6 +2,6 @@
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
 
-void printBold();
+void writeToTheFile();
 
 #endif // FUNCTIONS_H
