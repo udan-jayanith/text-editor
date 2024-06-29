@@ -15,8 +15,8 @@ void openFile(){
 
    fstream doc;
    
-   if(locationFolder[0] == "C" && locationFolder[1] == ":") doc.open(location ,ios::in); 
-   else doc.open(C:\Users\udan\Downloads\Documents); 
+   if(locationFolder[0] == "C" && locationFolder[1] == ":") doc.open(locationFolder ,ios::in); 
+   else doc.open(C:\Users\udan\Downloads\Documents\document.txt); 
 
 
 
