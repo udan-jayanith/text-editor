@@ -1,5 +1,5 @@
-build: main.cpp include/src/create.cpp
-	g++ main.cpp include/src/create.cpp
+build: main.cpp include/src/*.cpp 
+	g++ main.cpp include/src/*.cpp 
 
 clean:
 	rm -f *.o *.txt *.out *.exe build
